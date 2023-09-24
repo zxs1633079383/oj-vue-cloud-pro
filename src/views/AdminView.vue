@@ -1,7 +1,8 @@
 <template>
   <div class="home">
+    管理员页面
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <HelloWorld msg="Welcome to Your Admin Vue.js + TypeScript App" />
   </div>
 </template>
 
