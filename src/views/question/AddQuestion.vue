@@ -9,12 +9,12 @@
       <a-form-item field="tags" label="标签">
         <a-input-tag v-model="form.tags" placeholder="请选择标签" allow-clear />
       </a-form-item>
-      <a-form-item field="answer" tooltip="Please enter username" label="答案">
-        <MdEditor :value="form.answer" :handle-change="onAnswerChange" />
-      </a-form-item>
       <a-form-item field="content" label="题目内容">
         <MdEditor :value="form.content" :handle-change="onContentChange" />
         <!--        <a-input v-model="form.content" placeholder="请输入题目内容" />-->
+      </a-form-item>
+      <a-form-item field="answer" tooltip="Please enter username" label="答案">
+        <MdEditor :value="form.answer" :handle-change="onAnswerChange" />
       </a-form-item>
 
       <a-form-item label="判题配置" :content-flex="false" :merge-props="false">
